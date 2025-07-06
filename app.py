@@ -5,7 +5,7 @@ import joblib
 import pickle
 import streamlit as st
 
-# Load the model and structure
+# Load the model and the structure
 model = joblib.load("pollution_model.pkl")
 model_cols = joblib.load("model_columns.pkl")
 
